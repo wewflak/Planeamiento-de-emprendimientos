@@ -1,0 +1,87 @@
+html{
+    font-size: 2.12vh;
+    font-family: 'Lexend', sans-serif !important;
+    width: 100% !important;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 5.6rem;
+    z-index: 99;
+    width: 100%;
+}
+body{
+    height: 5rem;
+    color: #666;
+}
+#logo{
+    text-align: left;
+    font-size: 4rem;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.navbar h1{
+    font-size: 4rem;
+    display: flex;
+    font-family: 'Bungee Inline', cursive;
+    font-weight: 400;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    height: 5.6rem;
+    width: 100%;
+    background-color: #ffd000;
+    color: rgb(41, 39, 39);
+}
+nav ul{
+    float: right;
+    font-size: 1.75rem;
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+#cart{
+    margin-right: 3px;
+}
+nav ul li i:hover{
+    color: rgb(41, 39, 39);
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(41, 39, 39);
+    transition: all 0.5ms;
+}
+body{
+    background-color: #f1f1f1;
+    color: #666;
+}
+.card{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 2%;
+    height: 30%;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+    transition:  0.6ms all;
+}
+.card-body{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.formul{
+    margin-top: 5%;
+    width: 98%;
+    margin-left: 1%;
+}
+footer{
+    margin-top: 50px;
+    background: white;
+}
